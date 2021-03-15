@@ -74,7 +74,7 @@ namespace lift {
         return Destination;
     }
 
-	//% block="Call Lift"
+	//% block="Call the lift"
 	export function callLift(){
 		if (CheckVariableSet != 3){  basic.showIcon(IconNames.No); }
 		else {
