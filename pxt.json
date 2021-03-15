@@ -1,0 +1,31 @@
+{
+    "name": "ToodleBit",
+    "version": "0.0.10",
+    "description": "Code blocks for the lift algorithm lesson",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "toodlebit-lift.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+   "public": true,
+	"installedVersion": "https://github.com/ToodleBit/lift.git#v0.0.10",
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
